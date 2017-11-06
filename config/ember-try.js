@@ -35,6 +35,10 @@ module.exports = {
       resolutions:  { 'ember-source': '~2.12.0' }
     },
     {
+      name: 'ember-lts-2.12',
+      npm:  { devDependencies: { 'ember-source': '~2.12.0' } }
+    },
+    {
       name: 'ember-release',
       dependencies: { 'ember-source': 'ember#release' },
       resolutions:  { 'ember-source': 'release' }
